@@ -1,0 +1,131 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header styles */
+.header {
+    background-color: #333; /* 更改背景颜色 */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main container styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Side section styles */
+.side {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Main section styles */
+.main {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Avatar styles */
+.avatar {
+    width: 240px;
+    height: 300px; /* 调整高度与宽度一致 */
+    border-radius: 50%; /* 更改为圆形 */
+}
+
+/* Skill section styles */
+.skill.info-unit {
+    text-align: left;
+}
+
+/* Contact section styles */
+.contact.info-unit {
+    text-align: left;
+}
+
+/* Flex layout for skill list items */
+.skill.info-unit li {
+    display: flex;
+    align-items: center;
+}
+
+/* Adjust label width for skill list items */
+.skill.info-unit li label {
+    width: 30%; /* 更改宽度为 30% */
+    margin-right: 10px;
+}
+
+/* Bold label for profile section */
+.profile label {
+    font-weight: bold;
+}
+
+.profile span {
+    float: right;
+}
+
+.contact.info-unit label {
+    display: flex; /* 使用 flex 布局 */
+    align-items: center; /* 垂直居中对齐 */
+}
+
+.contact.info-unit label a {
+    display: inline-block; /* 将链接显示为块级元素 */
+    margin-left: 50px; /* 调整链接的左边距 */
+    text-align: left; /* 文字左对齐 */
+}
+
+
+.stack.info-unit ul li ul li {
+    list-style-type: disc; /* 使用实心圆点作为项目标记 */
+    margin-left: 20px; /* 添加左边距以保持与父项目的缩进 */
+}
+
+
+.pub.info-unit p {
+    margin-left: 2rem; /* 设置段落的左边距为 3rem */
+    text-indent: -2rem; /* 将段落的第一行向左缩进 2rem */
+}
+
+
+.profile.info-unit span {
+    white-space: nowrap; /* 防止文本换行 */
+}
+
+.side {
+    /* 设置固定宽度 */
+    width: 300px; /* 例如设置宽度为 300px */
+    /* 其他样式 */
+}
+
+/* 在页面宽度小于某个数时 */
+@media screen and (max-width: 800px) {
+    .side {
+        width: 100%; /* 设置宽度为100%，使其自适应 */
+    }
+}

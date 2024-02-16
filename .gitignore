@@ -1,0 +1,7 @@
+.vscode
+*.log
+*.lock
+*.sh
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
