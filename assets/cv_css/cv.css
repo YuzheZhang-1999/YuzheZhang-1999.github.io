@@ -113,3 +113,14 @@ body {
         width: 100%; /* 设置宽度为100%，使其自适应 */
     }
 }
+
+.short-bar {
+    width: 70%;
+    margin-left: 30%; /* 设置进度条向右偏移 */
+    background-color: #f0f0f0; /* 设置进度条颜色 */
+}
+
+.short-bar::-webkit-progress-value {
+    background-color:  #f56a6a; /* 设置进度条颜色 */
+}
+
