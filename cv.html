@@ -1,315 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-	<link rel="stylesheet" href="assets/cv_css/cv.css">
-	<link rel="stylesheet" href="assets/cv_css/main.css">
-	<!-- <link rel="stylesheet" href="assets/css/main.css"> -->
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Curriculum Vitae</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+		<link rel="stylesheet" href="assets/cv_css/cv.css">
+		<link rel="stylesheet" href="assets/cv_css/main.css">
+		<!-- <link rel="stylesheet" href="assets/css/main.css"> -->
 
-</head>
-<body>
-	<header class="header"></header>
+	</head>
+	<body>
+		<header class="header"></header>
 
-	<article class="container">
-		<!-- Sidebar -->
-		<div id="sidebar">
-			<div class="inner">
+		<article class="container">
+			<!-- Sidebar -->
+			<div id="sidebar">
+				<div class="inner">
+						
+					<!-- Menu -->
+						<nav id="menu">
+							<header class="major">
+								<h2>Menu</h2>
+							</header>
+							<ul>
+								<li><a href="index.html">Home</a></li>										
+								<li><a href="cv.html">CV</a></li>
+								<li><a href="publications.html">Publications</a></li>
+							</ul>
+						</nav>
 					
-				<!-- Menu -->
-					<nav id="menu">
-						<header class="major">
-							<h2>Menu</h2>
-						</header>
-						<ul>
-							<li><a href="index.html">Home</a></li>										
-							<li><a href="cv.html">CV</a></li>
-							<li><a href="publications.html">Publications</a></li>
-						</ul>
-					</nav>
-				
-				
-				<!-- Section -->
-					<section>
-						<header class="major">
-							<h2>Contact</h2>
-						</header>									
-						<ul class="contact">
-							<li class="icon solid fa-envelope">yzzhang.work at gmail.com</li>								
-						</ul>
-					</section>
 					
+					<!-- Section -->
+						<section>
+							<header class="major">
+								<h2>Contact</h2>
+							</header>									
+							<ul class="contact">
+								<li class="icon solid fa-envelope">yzzhang.work at gmail.com</li>								
+							</ul>
+						</section>
+						
+				</div>
 			</div>
-		</div>
 
-		<section class="side" id="side">
+			<section class="side" id="side">
 
-			<!-- 个人肖像 -->
-			<section class="me">
-				<section class="portrait">
-					<script>
-						function loading_() {
-							document.getElementsByClassName('avatar')[0].style.display = 'block';
-							document.getElementsByClassName('loading')[0].style.display = 'none';
-						}
-					</script>
-					<!-- 头像照片 -->
+				<!-- 个人肖像 -->
+				<section class="me">
+					<section class="portrait">
+						<script>
+							function loading_() {
+								document.getElementsByClassName('avatar')[0].style.display = 'block';
+								document.getElementsByClassName('loading')[0].style.display = 'none';
+							}
+						</script>
+						<!-- 头像照片 -->
 
-					<div class="loading">
-						<span></span>
-						<span></span>
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
-					<div align="center">
-						<img class='avatar' src="images/personal/zyz.png" style="display:block; margin:0 auto;" alt=""
-							onload="loading_()">
-					</div>
-					<!--<img src="assets/images/avatar.jpg" >onload="loading()"-->
+						<div class="loading">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div align="center">
+							<img class='avatar' src="images/personal/zyz.png" style="display:block; margin:0 auto;" alt=""
+								onload="loading_()">
+						</div>
+						<!--<img src="assets/images/avatar.jpg" >onload="loading()"-->
+					</section>
 				</section>
+
+
+				<!-- 基本信息 -->
+				<section class="profile info-unit">
+					<h2>
+						<i class="fas fa-user" aria-hidden="true"></i>Profile
+					</h2>
+					<hr />
+					<ul>
+						<li>
+							<label>Name: </label>
+							<span>Yuzhe Zhang</span>
+						</li>
+						<li>
+							<label>Edu: </label>
+							<span>Master Student 2021-2024</span>
+						</li>
+						<li>
+							<label>School: </label>
+							<span>Beijing Institute of Technology</span>
+						</li>
+						<li>
+							<label>Birth: </label>
+							<span>1999.01</span>
+						</li>
+						<li>
+							<label>Research: </label>
+							<span>Computational Imaging</span>
+						</li>
+					</ul>
+				</section>
+
+
+				<!-- 技术栈 -->
+				<section class="stack info-unit">
+					<h2><i class="fas fa-book" aria-hidden="true"></i>Research</h2>
+					<hr />
+					<ul>
+						<li>
+							<div class="item">
+								<h3>Computer Vision</h3>
+								<ul>
+									<li>Image restoration</li>
+									<li>Image generation</li>
+									<li>CNN / Transformer / VAE / GAN / Diffusion </li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<h3>Computational Imaging</h3>
+								<ul>
+									<li>On chip snapshot spectral imaging</li>
+									<li>High resolution spectral imaging</li>
+									<li>Broadband multispectral filter array</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</section>
+
+
+				<!-- 联系方式 -->
+				<section class="contact info-unit">
+					<h2>
+						<i class="fas fa-phone" aria-hidden="true"></i>Contact
+					</h2>
+					<hr />
+					<ul>
+						<li>
+							<label><i class="fas fa-house" aria-hidden="true"></i><a href="https://yuzhezhang-1999.github.io/" target="_blank">Homepage</a></label>
+						</li>
+						<li>
+							<label><i class="fab fa-google-scholar" aria-hidden="true"></i><a href="https://scholar.google.com/citations?user=rymYR-wAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a></label>
+						</li>
+						<li>
+							<label><i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/YuzheZhang-1999" target="_blank">Github</a></label>
+						</li>
+						<li>
+							<label><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:yzzhang.work@gmial.com" target="_blank">Email</a></label>
+						</li>
+					</ul>
+				</section>
+				
+				
+
+				<!-- 技能点 -->
+				<section class="skill info-unit">
+					<h2>
+						<i class="fas fa-code" aria-hidden="true"></i>Skills
+					</h2>
+					<hr />
+					<ul>
+						<li>
+							<label>Python/Pytorch</label>
+							<progress value="90" max="100"></progress>
+						</li>
+						<li>
+							<label>C/C++</label>
+							<progress value="75" max="100"></progress>
+						</li>
+						<li>
+							<label>Matlab</label>
+							<progress value="75" max="100"></progress>
+						</li>
+						<li>
+							<label>Latex</label>
+							<progress value="90" max="100"></progress>
+						</li>
+						<li>
+							<label>Linux</label>
+							<progress value="80" max="100"></progress>
+						</li>
+					</ul>
+				</section>
+
+
+
+
 			</section>
 
+			<section class="main">
 
-			<!-- 基本信息 -->
-			<section class="profile info-unit">
-				<h2>
-					<i class="fas fa-user" aria-hidden="true"></i>Profile
-				</h2>
-				<hr />
-				<ul>
-					<li>
-						<label>Name: </label>
-						<span>Yuzhe Zhang</span>
-					</li>
-					<li>
-						<label>Edu: </label>
-						<span>Master Student 2021-2024</span>
-					</li>
-					<li>
-						<label>School: </label>
-						<span>Beijing Institute of Technology</span>
-					</li>
-					<li>
-						<label>Birth: </label>
-						<span>1999.01</span>
-					</li>
-					<li>
-						<label>Research: </label>
-						<span>Computational Imaging</span>
-					</li>
-				</ul>
-			</section>
+				<!-- 教育经历 -->
+				<section class="edu info-unit">
+					<h2>
+						Education
+					</h2>
+					<hr />
+					<ul>
+						<li>
+							<h3>
+								<span>[M.Eng] Beijing Institute of Technology <time>2021.9-2024.7</time><br>&nbsp;Major in Information and Communication Engineering</span>
+							</h3>
+							<!-- <br> -->
+							<!--<p><b>Ranking</b> <mark>-/500</mark><br></p>-->
+							<ul class="info-content">
+								<li>
+									<strong>National Scholarship</strong> (Top 0.2%) <span class="year">2023.10</span>
+								</li>
+								<li>
+									<strong>Academic Scholarship Special Award</strong> <span class="year">2021/2022/2023</span>
+								</li>
+								
 
-
-			<!-- 技术栈 -->
-			<section class="stack info-unit">
-				<h2><i class="fas fa-book" aria-hidden="true"></i>Research</h2>
-				<hr />
-				<ul>
-					<li>
-						<div class="item">
-							<h3>Computer Vision</h3>
-							<ul>
-								<li>Image restoration</li>
-								<li>Image generation</li>
-								<li>CNN / Transformer / VAE / GAN / Diffusion </li>
 							</ul>
-						</div>
-					</li>
-					<li>
-						<div class="item">
-							<h3>Computational Imaging</h3>
-							<ul>
-								<li>On chip snapshot spectral imaging</li>
-								<li>High resolution spectral imaging</li>
-								<li>Broadband multispectral filter array</li>
+						</li>
+					</ul>
+					<hr class="myhrline"/>
+					<ul>
+						<li>
+							<h3>
+								<span>[B.Eng] Zhengzhou University <time>2017.9-2021.7</time><br>Major in Electronic Engineering</span>
+							</h3>
+							<!-- <p><b>Ranking</b> <mark>7/96</mark><br></p> -->
+							<ul class="info-content">
+								<li>
+									Outstanding Graduate (Top 1%) 2021
+								</li>
 							</ul>
-						</div>
-					</li>
-				</ul>
-			</section>
+						</li>
+
+					</ul>
+				</section>
+
+				<!-- pub -->
+				<section class="pub info-unit">
+					<h2>
+						Publications
+					</h2>
+					<hr />
+					<p>[3] <b>Yuzhe Zhang</b>, Jiawei Zhang, Hao Li, Zhouxia Wang, Luwei Hou, Dongqing Zou, Liheng Bian, '<a 
+						href="https://arxiv.org/abs/2312.08886">Diffusion-based Blind Text Image Super-Resolution</a>,' 
+						arXiv 2023. </span></p>
+
+					<p>[2] Liheng Bian†, Zhen Wang†, <b>Yuzhe Zhang†</b>, Yinuo Zhang, Chen Yang, Lianjie Li, Wen Fang, Jiajun Zhao, Chunli Zhu, Qinghao Meng, Xuan Peng, Jun Zhang, '<a 
+						href="https://arxiv.org/abs/2306.11583">A low-cost integrated hyperspectral imaging sensor with full temporal and spatial resolution at VIS-NIR wide range</a>,' 
+						arXiv 2023. </span>
+						Authors <b>†</b> contributed equally to this work.</p> 
+
+					<p>[1] <b>Yuzhe Zhang</b>, Shuai Wang, Qiang Jiao, Liheng Bian, '<a 
+						href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12317/1231709/Deep-calibration-for-broadband-multispectral-filter-array/10.1117/12.2643792.short">Deep calibration for broadband multispectral filter array</a>,' 
+						<b><i>Optoelectronic Imaging and Multimedia Technology IX. SPIE</i></b>, 2023, vol. 12317, pp. 68-74.</span></p>
+
+				</section>
 
 
-			<!-- 联系方式 -->
-			<section class="contact info-unit">
-				<h2>
-					<i class="fas fa-phone" aria-hidden="true"></i>Contact
-				</h2>
-				<hr />
-				<ul>
-					<li>
-						<label><i class="fas fa-house" aria-hidden="true"></i><a href="https://yuzhezhang-1999.github.io/" target="_blank">Homepage</a></label>
-					</li>
-					<li>
-						<label><i class="fab fa-google-scholar" aria-hidden="true"></i><a href="https://scholar.google.com/citations?user=rymYR-wAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a></label>
-					</li>
-					<li>
-						<label><i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/YuzheZhang-1999" target="_blank">Github</a></label>
-					</li>
-					<li>
-						<label><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:yzzhang.work@gmial.com" target="_blank">Email</a></label>
-					</li>
-				</ul>
-			</section>
-			
-			
+				<!-- 实习工作 -->
+				<section class="work info-unit">
+					<h2>
+						Internship & Project
+					</h2>
+					<hr />
+					<ul>
+						<li>
+							<h3>
+								<span>Sensetime Research</span>
+								<time>2023.5-2023.12</time>
+							</h3>
+						</li>
+					</ul>
+				</section>
 
-			<!-- 技能点 -->
-			<section class="skill info-unit">
-				<h2>
-					<i class="fas fa-code" aria-hidden="true"></i>Skills
-				</h2>
-				<hr />
-				<ul>
-					<li>
-						<label>Python/Pytorch</label>
-						<progress value="90" max="100"></progress>
-					</li>
-					<li>
-						<label>C/C++</label>
-						<progress value="75" max="100"></progress>
-					</li>
-					<li>
-						<label>Matlab</label>
-						<progress value="75" max="100"></progress>
-					</li>
-					<li>
-						<label>Latex</label>
-						<progress value="90" max="100"></progress>
-					</li>
-					<li>
-						<label>Linux</label>
-						<progress value="80" max="100"></progress>
-					</li>
-				</ul>
-			</section>
+				<!-- 竞赛经历 -->
 
+				<section class="competition info-unit">
+					<h2>
+						Competition
+					</h2>
+					<hr />
+					<ul>
+						<li>
+							<strong>"Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition</strong>
+						</li>
 
+					</ul>
+				</section>
 
-
-		</section>
-
-		<section class="main">
-
-			<!-- 教育经历 -->
-			<section class="edu info-unit">
-				<h2>
-					Education
-				</h2>
-				<hr />
-				<ul>
-					<li>
-						<h3>
-							<span>[M.Eng] Beijing Institute of Technology <time>2021.9-2024.7</time><br>&nbsp;Major in Information and Communication Engineering</span>
-						</h3>
-						<!-- <br> -->
-						<!--<p><b>Ranking</b> <mark>-/500</mark><br></p>-->
-						<ul class="info-content">
-							<li>
-								<strong>National Scholarship</strong> (Top 0.2%) <span class="year">2023.10</span>
-							</li>
-							<li>
-								<strong>Academic Scholarship Special Award</strong> <span class="year">2021/2022/2023</span>
-							</li>
-							
-
-						</ul>
-					</li>
-				</ul>
-				<hr class="myhrline"/>
-				<ul>
-					<li>
-						<h3>
-							<span>[B.Eng] Zhengzhou University <time>2017.9-2021.7</time><br>Major in Electronic Engineering</span>
-						</h3>
-						<!-- <p><b>Ranking</b> <mark>7/96</mark><br></p> -->
-						<ul class="info-content">
-							<li>
-								Outstanding Graduate (Top 1%) 2021
-							</li>
-						</ul>
-					</li>
-
-				</ul>
-			</section>
-
-			<!-- pub -->
-			<section class="pub info-unit">
-				<h2>
-					Publications
-				</h2>
-				<hr />
-				<p>[3] <b>Yuzhe Zhang</b>, Jiawei Zhang, Hao Li, Zhouxia Wang, Luwei Hou, Dongqing Zou, Liheng Bian, '<a 
-					href="https://arxiv.org/abs/2312.08886">Diffusion-based Blind Text Image Super-Resolution</a>,' 
-					arXiv 2023. </span></p>
-
-				<p>[2] Liheng Bian†, Zhen Wang†, <b>Yuzhe Zhang†</b>, Yinuo Zhang, Chen Yang, Lianjie Li, Wen Fang, Jiajun Zhao, Chunli Zhu, Qinghao Meng, Xuan Peng, Jun Zhang, '<a 
-					href="https://arxiv.org/abs/2306.11583">A low-cost integrated hyperspectral imaging sensor with full temporal and spatial resolution at VIS-NIR wide range</a>,' 
-					arXiv 2023. </span>
-				    Authors <b>†</b> contributed equally to this work.</p> 
-
-				<p>[1] <b>Yuzhe Zhang</b>, Shuai Wang, Qiang Jiao, Liheng Bian, '<a 
-					href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12317/1231709/Deep-calibration-for-broadband-multispectral-filter-array/10.1117/12.2643792.short">Deep calibration for broadband multispectral filter array</a>,' 
-					<b><i>Optoelectronic Imaging and Multimedia Technology IX. SPIE</i></b>, 2023, vol. 12317, pp. 68-74.</span></p>
+				<!-- 自我评价 -->
+				<section class="comment info-unit">
+					<h2>
+						Self Comment
+					</h2>
+					<hr />
+					<p>Self-motivated
+					</p>
+				</section>
 
 			</section>
+		</article>
 
 
-			<!-- 实习工作 -->
-			<section class="work info-unit">
-				<h2>
-					Internship & Project
-				</h2>
-				<hr />
-				<ul>
-					<li>
-						<h3>
-							<span>Sensetime Research</span>
-							<time>2023.5-2023.12</time>
-						</h3>
-					</li>
-				</ul>
-			</section>
-
-			<!-- 竞赛经历 -->
-
-			<section class="competition info-unit">
-				<h2>
-					Competition
-				</h2>
-				<hr />
-				<ul>
-					<li>
-						<strong>"Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition</strong>
-					</li>
-
-				</ul>
-			</section>
-
-			<!-- 自我评价 -->
-			<section class="comment info-unit">
-				<h2>
-					Self Comment
-				</h2>
-				<hr />
-				<p>Self-motivated
-				</p>
-			</section>
-
-		</section>
-	</article>
-
-
-
-	<footer class="footer">
-		<p>© 2024 Yuzhe Zhang. Last Modified
-			<time>2024.01.01</time>.
-		</p>
-	</footer>
-
-	<script src="assets/js/index.js"></script>
-</body>
+			<script src="assets/js/index.js"></script>
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
 </html>

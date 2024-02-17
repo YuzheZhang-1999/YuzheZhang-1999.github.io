@@ -13,6 +13,13 @@ body {
     color: #333;
 }
 
+/* Header styles */
+.header {
+    background-color: #333; /* 更改背景颜色 */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
 
 /* Main container styles */
 .container {
@@ -33,6 +40,15 @@ body {
     flex: 2;
     background-color: #fff;
     padding: 20px;
+}
+
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
 /* Avatar styles */
