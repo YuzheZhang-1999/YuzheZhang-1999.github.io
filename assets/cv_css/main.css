@@ -164,11 +164,14 @@ hr {
   margin: 0 0 1em 0; }
 
 h2 {
-  margin: 1em 0 0 0; /* 或者其他你想要的行距 */}
+  margin: 1.0em 0 0 0; /* 或者其他你想要的行距 */}
 
 h3 {
   margin: 1em 0 0 0; /* 或者其他你想要的行距 */}
 
+h4 {
+  margin: 0 0 0 0; /* 或者其他你想要的行距 */}
+  
 header p {
   font-family: "Roboto Slab", serif;
   font-size: 1em;
@@ -176,6 +179,7 @@ header p {
   letter-spacing: 0.075em;
   margin-top: -0.5em;
   text-transform: uppercase; }
+  
 
 header.major > :last-child {
   border-bottom: solid 3px #f56a6a;
