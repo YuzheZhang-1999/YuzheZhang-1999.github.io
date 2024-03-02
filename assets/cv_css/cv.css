@@ -93,7 +93,7 @@ body {
 
 .pub.info-unit p {
     margin-left: 2rem; /* 设置段落的左边距为 3rem */
-    text-indent: -2rem; /* 将段落的第一行向左缩进 2rem */
+    text-indent: -1.5rem; /* 将段落的第一行向左缩进 2rem */
     margin-bottom: 1.5rem;
 }
 
