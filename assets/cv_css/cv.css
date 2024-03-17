@@ -98,7 +98,7 @@ body {
 }
 
 
-.profile.info-unit span {
+.profile.info-unit span {/
     white-space: nowrap; /* 防止文本换行 */
 }
 
