@@ -129,3 +129,19 @@ body {
     list-style-type: disc; /* 使用实心圆点作为项目标记 */
     margin-left: 30px; /* 添加左边距以保持与父项目的缩进 */
 }
+
+
+.list-item-with-dot {
+    position: relative;
+    padding-left: 20px; /* Add some padding to make space for the dot */
+}
+
+.list-item-with-dot::before {
+    content: "•"; /* The dot */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black; /* You can change the color as needed */
+    font-size: 24px; /* Adjust the size of the dot */
+}
