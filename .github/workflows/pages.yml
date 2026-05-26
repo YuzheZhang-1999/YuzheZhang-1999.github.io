@@ -25,10 +25,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Package static site
+        run: |
+          tar \
+            --dereference --hard-dereference \
+            --directory . \
+            -cvf "$RUNNER_TEMP/artifact.tar" \
+            --exclude=.git \
+            --exclude=.github \
+            .
+
       - name: Upload static site
-        uses: actions/upload-pages-artifact@v5
+        uses: actions/upload-artifact@v4
         with:
-          path: .
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          if-no-files-found: error
+          retention-days: 1
 
       - name: Deploy
         id: deployment
